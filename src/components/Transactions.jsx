@@ -127,10 +127,10 @@ const Transactions = () => {
 
     return (
         <>
-            <h2>Transactions | This Month</h2>
+            <h2 className="text-xl font-medium">Transactions | This Month</h2>
             <div className="p-2 shadow-sm shadow-slate-300 rounded-md">
                 <div className="flex justify-between my-8">
-                    <input type="text" name="searchTransactions" id="searchTransactions" placeholder="Search by Order ID..." />
+                    <input type="text" name="searchTransactions" id="searchTransactions" placeholder="Search by Order ID..." className="bg-white border-2 w-[280px]"/>
                     <div className="flex gap-8 text-[16px] text-slate-600">
                         <button className="flex items-center gap-1 px-3 border-2 rounded-md">
                             Sort<BiSortAlt2 />

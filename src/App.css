@@ -13,14 +13,17 @@ input{
     padding: 25px;
     outline: none;
     /* border: 1px solid rgb(208, 207, 207); */
-    border-radius: 7px;
+    border-radius: 6px;
     background-color: #f2f2f2;
 }
 /* .topNavBar{
     border-bottom: ;
 } */
-#searchBox, #searchTransactions{
+#searchBox{
     padding: 10px;
+}
+#searchTransactions{
+    padding: 8px 10px;
 }
 #searchTransactions{
     
