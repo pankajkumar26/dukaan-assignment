@@ -128,7 +128,7 @@ const Transactions = () => {
     return (
         <>
             <h2 className="text-xl font-medium">Transactions | This Month</h2>
-            <div className="p-2 shadow-sm shadow-slate-300 rounded-md">
+            <div className="px-2 pb-2 shadow-sm shadow-slate-300 rounded-md">
                 <div className="flex justify-between my-8">
                     <input type="text" name="searchTransactions" id="searchTransactions" placeholder="Search by Order ID..." className="bg-white border-2 w-[280px]"/>
                     <div className="flex gap-8 text-[16px] text-slate-600">
