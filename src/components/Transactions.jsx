@@ -144,7 +144,7 @@ const Transactions = () => {
                     <table className="w-full rounded-md ">
                         <thead className="px-3">
                             <tr className="text-left text-gray-500 p-3">
-                                <th className="px-4 py-2">Order ID</th>
+                                <th className="px-4 py-2 ">Order ID</th>
                                 <th className="px-4 py-2 flex items-center">Order date  <FaCaretDown className="inline "/></th>
                                 <th className="px-4 py-2 text-right">Order amount</th>
                                 <th className="px-4 py-2 text-right">Transaction fees &#9432;</th>
@@ -154,7 +154,7 @@ const Transactions = () => {
                             {transactions.map((transaction) => {
                                 return (
                                     <tr key={transaction.orderID} >
-                                        <td className="border-y-[1px] px-4 py-3 text-[#458cc3]">#{transaction.orderID}</td>
+                                        <td className="border-y-[1px] px-4 py-3 text-[#458cc3] font-medium">#{transaction.orderID}</td>
                                         <td className="border-y-[1px] px-4 py-3">{transaction.orderDate}</td>
                                         <td className="border-y-[1px] text-right px-4 py-3">&#8377;{transaction.orderAmount.toLocaleString()}</td>
                                         <td className="border-y-[1px] text-right px-4 py-3">&#8377;{transaction.transactionFees}</td>
